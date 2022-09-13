@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        /* selectors in css */
+        /* Use . to style with class */
+        /* Use # to style with id */
+        /* Style with element name itself */
+
+        /* element name */
+        body{
+            background-color: lightgrey;
+        }
+
+        /* class */
+        .main-header{
+            color: blueviolet;
+             /*color = change text color  */
+        }
+
+        /* id */
+        #main{
+            background-color: burlywood;
+        }
+
+        #topic{
+            background-color: chartreuse;
+        }
+
+        /* how to select multiple elements */
+        #main , #topic {
+            border: darkblue 3px solid;
+            padding: 10px;
+            margin-bottom: 5px;
+        }
+
+        /* Nested elements */
+        #topic p {
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="main">
+        <h1 class="main-header">Welcome to CSS</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda sapiente perferendis error obcaecati, 
+            voluptatibus placeat voluptate dolore facilis in dicta!</p>
+    </div>
+    <div id="topic">
+        <h2>Software Engineering</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, laboriosam!</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe</title>
+    <style>
+      body {
+        background-image: url(img2.jpg);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: cover;
+      }
+
+      img {
+        width: 150px;
+        height:30px;
+        position: relative;
+        top: 50px;
+        left: 50px;
+      }
+
+      .container {
+        /* if we set width, it won't be responsive */
+        max-width: 9000px;
+        margin: auto;
+      }
+
+      ul {
+        text-align: right;
+      }
+
+      li {
+        display: inline;
+        background-color: darkorange;
+        border: none;
+        font-size: 16px;
+        padding: 5px 20px;
+        cursor: pointer;
+      }
+
+      li a {
+        text-decoration: none;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .sp {
+        background-color: transparent;
+      }
+
+      .sp a {
+        color: white;
+      }
+
+      .fst h1 {
+        color: white;
+        font-size: 70px;
+        margin-top: 300px;
+        margin-left: 500px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 5px;
+      }
+
+      .fst p {
+        color: blanchedalmond;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin-left: 530px;
+        margin-bottom: 60px;
+      }
+
+      .sec {
+        border: white 3px solid;
+        text-align: center;
+        margin-left: 530px;
+        margin-right: 530px;
+        color: antiquewhite;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+      }
+
+      .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 35px;
+        background-color: white;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="logo.png" alt="" />
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li class="sp"><a href="#">About</a></li>
+        <li class="sp"><a href="#">Contact</a></li>
+      </ul>
+
+      <div class="fst">
+        <h1>Cafe Coffee</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+
+      <div class="sec">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+          officia.
+        </p>
+      </div>
+
+      <div class="footer">
+        <p>Copyright &copy; 2022</p>
+      </div>
+    </div>
+  </body>
+</html>
